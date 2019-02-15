@@ -249,7 +249,7 @@ class Output:
         """
         Regular grid interpolator for B.
         """
-        from scipy.interpolate import RegularGridInterpolator as rgi
+        from pfsspy.interpolator import RegularGridInterpolator as rgi
         if self._rgi is not None:
             return self._rgi
 
